@@ -11,7 +11,7 @@
 <ul>
 <li><b>Game progress</b> (levels, stars, coins, settings) is stored only on your device.</li>
 <li><b>Leaderboard data:</b> if you are online, the Game signs you in anonymously with Google Firebase and stores your total score, stars, level, weekly league stars and the optional nickname you enter. If you use an invite code, the anonymous IDs of the inviter and the invited player are stored so both can receive the gift. No name, email or phone number is collected.</li>
-<li><b>Analytics:</b> the Game uses Google Firebase Analytics to collect anonymous usage data (e.g. levels started and completed, app opens, crashes) to improve the Game.</li>
+<li><b>Analytics:</b> the Game uses Google Firebase Analytics to collect anonymous usage data (e.g. levels started and completed, app opens, crashes) to improve the Game. Analytics is only enabled if you agree in the consent prompt shown on first launch, and you can turn it off anytime in Settings &gt; Usage data.</li>
 <li><b>Notifications:</b> optional reminders (e.g. "your lives are full") are scheduled locally on your device. No data is sent for this.</li>
 <li><b>Advertising data:</b> the Game shows ads through Google AdMob. AdMob may collect your device's advertising identifier (IDFA/AAID), IP address, approximate location, and ad interaction data to show and measure ads.</li>
 </ul>
@@ -28,6 +28,7 @@
 <ul>
 <li>Google AdMob – <a href="https://policies.google.com/privacy">Privacy Policy</a> · <a href="https://policies.google.com/technologies/ads">How Google uses data in ads</a></li>
 <li>Google Firebase (Authentication, Firestore, Analytics) – <a href="https://firebase.google.com/support/privacy">Privacy &amp; Security</a></li>
+<li>Google Fonts and jsDelivr (content delivery network) – the Game loads its fonts and Firebase libraries from these services, which receive your IP address as part of the connection. – <a href="https://developers.google.com/fonts/faq/privacy">Google Fonts privacy</a>, <a href="https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net">jsDelivr privacy</a></li>
 </ul>
 
 <h2>4. Your choices</h2>
@@ -35,14 +36,14 @@
 <li><b>iOS:</b> the Game asks for permission before tracking (App Tracking Transparency). You can change this anytime in Settings → Privacy &amp; Security → Tracking.</li>
 <li><b>Android:</b> you can reset or delete your advertising ID in Settings → Google → Ads.</li>
 <li><b>EEA/UK users</b> are shown a consent form (Google UMP) before personalized ads are served.</li>
-<li>You can erase local progress in the Game via Settings → Reset. To delete your leaderboard entry, email us.</li>
+<li>You can erase local progress in the Game via Settings → Reset. To delete your leaderboard entry, invite records and anonymous game ID, use Settings → Delete my data in the Game, or email us.</li>
 </ul>
 
 <h2>5. Children</h2>
 <p>The Game is not directed at children under 13 and we do not knowingly collect personal information from them. If you believe a child has provided data, contact us and we will delete it.</p>
 
 <h2>6. Data retention &amp; security</h2>
-<p>Leaderboard entries are kept while the Game is active or until you request deletion. Data is transmitted over encrypted connections (HTTPS).</p>
+<p>Analytics data is kept for a maximum of 2 months and then deleted automatically. Leaderboard entries are kept while the Game is active or until you request deletion. Data is transmitted over encrypted connections (HTTPS).</p>
 
 <h2>7. Changes</h2>
 <p>We may update this policy. Changes will be posted on this page with a new date.</p>
@@ -65,7 +66,7 @@
 <h2>2. Kullanım amaçları</h2>
 <p>Oyunu kaydetmek, liderlik tablosunu göstermek, Oyunu ücretsiz tutan reklamları sunmak ve dolandırıcılığı önlemek. Kişisel verilerini satmayız.</p>
 <h2>3. Seçimlerin</h2>
-<p>iOS'ta takip izni istenir; Ayarlar → Gizlilik → Takip'ten değiştirebilirsin. Android'de reklam kimliğini Ayarlar → Google → Reklamlar'dan sıfırlayabilirsin. Yerel ilerlemeni Oyun içinde Ayarlar → Sıfırla ile silebilirsin; liderlik kaydının silinmesi için bize e-posta gönder.</p>
+<p>iOS'ta takip izni istenir; Ayarlar → Gizlilik → Takip'ten değiştirebilirsin. Android'de reklam kimliğini Ayarlar → Google → Reklamlar'dan sıfırlayabilirsin. Yerel ilerlemeni Oyun içinde Ayarlar → Sıfırla ile silebilirsin; liderlik kaydını Ayarlar → Verilerimi sil ile silebilir ya da bize e-posta gönderebilirsin.</p>
 <h2>4. Çocuklar</h2>
 <p>Oyun 13 yaş altı çocuklara yönelik değildir ve onlardan bilerek veri toplamayız.</p>
 <h2>5. İletişim</h2>
@@ -86,17 +87,17 @@
 <h2>3. İşleme amaçları ve hukuki sebepler</h2>
 <ul>
 <li>Liderlik tablosu, haftalık lig ve davet hediyelerinin sunulması – sözleşmenin ifası (KVKK m.5/2-c).</li>
-<li>Oyunun geliştirilmesi, hataların giderilmesi ve güvenliğin sağlanması – meşru menfaat (KVKK m.5/2-f).</li>
+<li>Oyunun geliştirilmesi için kullanım analizi (Firebase Analytics) – açık rıza (oyunun ilk açılışındaki onay penceresi; Ayarlar &gt; Kullanım verileri ile istediğin zaman geri alınabilir).</li>
+<li>Hataların giderilmesi ve güvenliğin sağlanması – meşru menfaat (KVKK m.5/2-f).</li>
 <li>Kişiselleştirilmiş reklam gösterimi – açık rıza (iOS'ta "Takip" izni, AB/İngiltere'de onay formu). Rıza vermezsen yalnızca kişiselleştirilmemiş reklamlar gösterilir.</li>
 </ul>
 <h2>4. Aktarım ve yurt dışına aktarım</h2>
-<p>Veriler, hizmetin sağlanması amacıyla Google LLC ve bağlı şirketlerine (Firebase, Google AdMob) aktarılır. Bu hizmetlerin sunucuları Türkiye dışında (ağırlıklı olarak ABD ve AB'de) bulunur. Aktarım, KVKK m.9 kapsamında Google'ın veri işleme şartlarında yer alan standart sözleşme hükümleri ve, kişiselleştirilmiş reklamlar için, açık rızan çerçevesinde yapılır. Verilerin satışı yapılmaz.</p>
+<p>Veriler, hizmetin sağlanması amacıyla Google LLC ve bağlı şirketlerine (Firebase, Google AdMob, Google Fonts) aktarılır. Oyun yazı tiplerini Google Fonts'tan ve Firebase kütüphanelerini jsDelivr içerik dağıtım ağından yükler; bu bağlantılar sırasında IP adresin bu hizmetlere iletilir. Bu hizmetlerin sunucuları Türkiye dışında (ağırlıklı olarak ABD ve AB'de) bulunur. Aktarım, KVKK m.9 kapsamında Google'ın veri işleme şartlarında yer alan standart sözleşme hükümleri ve kullanım analizi ile kişiselleştirilmiş reklamlar için açık rızan çerçevesinde yapılır. Kullanım analizine onay vermezsen bu veriler hiç toplanmaz ve aktarılmaz. Verilerin satışı yapılmaz.</p>
 <h2>5. Herkese açık bilgiler</h2>
 <p>Liderlik tablosu ve ligde takma adın, puanın ve seviyen diğer oyunculara görünür. Takma ad olarak gerçek adını veya kişisel bilgilerini kullanmamanı öneririz.</p>
 <h2>6. Saklama süresi</h2>
-<p>Liderlik ve lig kayıtları oyun yayında olduğu sürece veya silme talebine kadar saklanır. Cihazdaki oyun ilerlemesi yalnızca cihazında tutulur ve uygulama silindiğinde ya da oyun içinden sıfırlandığında silinir.</p>
+<p>Liderlik ve lig kayıtları oyun yayında olduğu sürece veya silme talebine kadar saklanır. Kullanım analizi verileri (Firebase Analytics) en fazla 2 ay saklanır, sonra otomatik olarak silinir. Cihazdaki oyun ilerlemesi yalnızca cihazında tutulur ve uygulama silindiğinde ya da oyun içinden sıfırlandığında silinir.</p>
 <h2>7. Haklarınız (KVKK m.11)</h2>
 <p>Kişisel verilerinin işlenip işlenmediğini öğrenme, bilgi talep etme, işleme amacını öğrenme, aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini, silinmesini veya yok edilmesini isteme, itiraz etme ve zarara uğraman hâlinde zararın giderilmesini talep etme haklarına sahipsin.</p>
-<p>Taleplerini <a href="mailto:efsgmgames@gmail.com">efsgmgames@gmail.com</a> adresine e-posta ile iletebilirsin. Liderlik kaydının silinmesi için oyundaki takma adını belirtmen yeterlidir. Talepler en geç 30 gün içinde ücretsiz olarak sonuçlandırılır.</p>
+<p>Taleplerini <a href="mailto:efsgmgames@gmail.com">efsgmgames@gmail.com</a> adresine e-posta ile iletebilirsin. Liderlik kaydını, davet kayıtlarını ve anonim oyun kimliğini oyun içinden Ayarlar → Verilerimi sil ile hemen silebilirsin; e-posta ile talep edersen oyundaki takma adını belirtmen yeterlidir. Talepler en geç 30 gün içinde ücretsiz olarak sonuçlandırılır.</p>
 </body></html>
-
